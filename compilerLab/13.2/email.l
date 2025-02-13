@@ -4,8 +4,8 @@
 %}
 
 %%
-[A-Za-z_][A-Za-z_0-9]*    { printf("Identifier valid \n");}
-.            {printf("Not valid\n");exit(1);}
+[A-Za-z_0-9]+[@][A-Za-z_0-9]+.com    { printf("Identifier valid \n");}
+.*            {printf("Not valid\n");exit(1);}
 
 %%
 
