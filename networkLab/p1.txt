@@ -1,0 +1,6 @@
+IP config
+netstat
+ping
+telnet
+ftp
+trace route
