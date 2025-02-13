@@ -4,8 +4,9 @@
 %}
 
 %%
-[A-Za-z_0-9]+[@][A-Za-z_0-9]+.com    { printf("Valid \n");}
-.*            {printf("Not valid\n");exit(1);}
+[0-9]*   { printf("Int \n");}
+[.0-9]*          {printf("Float\n");exit(1);}
+.*           {printf("NaN\n");exit(1);}
 
 %%
 
