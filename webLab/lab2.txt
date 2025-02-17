@@ -1,4 +1,0 @@
-1 - create table of 5 rows 4 cols
-col heads : roll no, name, city, cgpa
-
-2 -  create a tt of your class using html table tags with color coding
