@@ -37,8 +37,6 @@ int is_valid_date(int day, int month, int year) {
 }
 %}
 
-%option noyywrap
-
 %%
 
 [0-9]{2}"-"[0-9]{2}"-"[0-9]{4} {
