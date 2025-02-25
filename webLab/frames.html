@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+        }
+        .left-column {
+            width: 20%;
+            background-color: #f4f4f4;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .right-column {
+            width: 80%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <ul>
+                <li><a href="navigationframe.html" target="right-frame">Navigation Frames</a></li>
+                <li><a href="floatingframes.html" target="right-frame">Floating Frames</a></li>
+                <li><a href="mixedframe.html" target="right-frame">Mixed Frame</a></li>
+                <li><a href="noframe.html" target="right-frame">No Frame</a></li>
+            </ul>
+        </div>
+        <div class="right-column">
+            <iframe name="right-frame"></iframe>
+        </div>
+    </div>
+</body>
+</html>
