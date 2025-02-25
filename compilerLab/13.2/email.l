@@ -4,8 +4,9 @@
 %}
 
 %%
+[A-Za-z_0-9]+[@][A-Za-z_0-9]+.[A-Za-z_0-9]+.in    { printf("Valid \n");}
 [A-Za-z_0-9]+[@][A-Za-z_0-9]+.com    { printf("Valid \n");}
-.*            {printf("Not valid\n");exit(1);}
+.*            {printf("Not valid\n");}
 
 %%
 
