@@ -16,7 +16,7 @@ extern FILE *yyin;
 int main() {
     FILE *myfile = fopen("index.html", "r");
     if (!myfile) {
-        printf("I can't open the file!\n");
+        printf("File not found!\n");
         return -1;
     }
     yyin = myfile;
